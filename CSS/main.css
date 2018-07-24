@@ -1,0 +1,751 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i');
+a {
+    text-decoration: none;
+}
+
+button {
+    outline: none;
+}
+
+.head1 {
+    font-size: 60px;
+    line-height: 1.2;
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: 0.1em;
+}
+
+.head2 {
+    font-size: 42px;
+    line-height: 1.3;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #333333;
+}
+
+.head3 {
+    font-size: 27px;
+    line-height: 1.2;
+    color: #333333;
+}
+
+.head4 {
+    font-size: 42px;
+    line-height: 1.2;
+    color: #fdfcf8;
+    font-weight: bold;
+    letter-spacing: 0.025em;
+}
+
+.head5 {
+    font-size: 18px;
+    line-height: 1.2;
+    color: #e0e0e0;
+    font-weight: bold;
+    letter-spacing: 0.025em;
+    text-transform: uppercase;
+}
+
+.text1 {
+    font-size: 16px;
+    line-height: 1.75;
+    color: #4c4c4c;
+}
+
+.text2 {
+    font-size: 16px;
+    line-height: 1.75;
+    color: black;
+}
+
+.text3 {
+    font-size: 28px;
+    text-transform: uppercase;
+    line-height: 1.2;
+}
+
+.text4 {
+    font-size: 16px;
+    color: #e0e0e0;
+}
+
+.button1 {
+    border: none;
+    border-radius: 5px;
+    background-color: #ff2d2d;
+    color: white;
+}
+
+.button1:active {
+    background-color: #db3030;
+}
+
+.button2 {
+    border: 2px solid #ff2d2d;
+    border-radius: 5px;
+    background-color: white;
+    color: #ff2d2d;
+}
+
+.button2:active {
+    background-color: #ede8e8;
+}
+
+body {
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    background-color: #282828;
+}
+
+header {
+    width: 1577px;
+    margin: 0 auto;
+    background-color: #f6f2f2;
+    padding-top: 29px;
+    height: 688px;
+}
+
+.headerMenu {
+    margin-left: 164px;
+    margin-right: 166px;
+    font-size: 14px;
+    letter-spacing: 0.035em;
+    text-transform: uppercase;
+    font-weight: bold;
+    background-color: #313030;
+}
+
+.headerMenuList {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 358px;
+    margin-right: 432px;
+}
+
+.headerMenuListItem {
+    flex-grow: 1;
+}
+
+.headerMenuListItem a {
+    display: block;
+    margin-top: 43px;
+    margin-bottom: 34px;
+    text-align: center;
+    color: #ffffff;
+}
+
+.homeMenu {
+    background-color: #ff2d2d;
+}
+
+.headerMenuListItem:hover {
+    background-color: #ff2d2d;
+}
+
+.anounce {
+    margin-top: 108px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 164px;
+    margin-right: 166px;
+}
+
+.anounceTextParagraph {
+    margin-top: 20px;
+    padding-right: 100px;
+}
+
+.anounceTextButton {
+    margin-top: 45px;
+    width: 226px;
+    height: 55px;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 1.878;
+    letter-spacing: 0.025em;
+}
+
+.anounceImg {
+    position: relative;
+    min-width: 551px;
+    height: 356px;
+    background-color: #c4c0b1;
+    box-shadow: 0 0 50px 10px #c7c3c3;
+}
+
+.anounceImg img {
+    position: absolute;
+    margin: auto;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+}
+
+main {
+    background-color: #ffffff;
+    width: 1577px;
+    margin: 0 auto;
+}
+
+.provide {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 100px;
+    margin-left: 164px;
+    margin-right: 166px;
+    height: 720px;
+}
+
+.provideText {
+    padding-right: 122px;
+}
+
+.provideTextHead {
+    padding-bottom: 50px;
+}
+
+.provideTextParagraph {
+    padding-right: 90px;
+    padding-bottom: 56px;
+}
+
+.provideTextButton {
+    margin-top: 1px;
+    width: 226px;
+    height: 55px;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 1.878;
+    letter-spacing: 0.025em;
+}
+
+.providePrivilegesList {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 630px;
+}
+
+.providePrivilegesListItem {
+    position: relative;
+    width: 300px;
+    height: 260px;
+    margin-right: 15px;
+    padding-top: 70px;
+}
+
+.providePrivilegesListItemHead {
+    padding-bottom: 24px;
+}
+
+.managementPrivilege::before {
+    content: "";
+    position: absolute;
+    top: 7px;
+    left: 5px;
+    background-image: url(../MEDIA/Image/Settings.png);
+    width: 41px;
+    height: 41px;
+}
+
+.designPrivilege::before {
+    content: "";
+    position: absolute;
+    top: 7px;
+    left: 5px;
+    background-image: url(../MEDIA/Image/Pencil.png);
+    width: 40px;
+    height: 38px;
+}
+
+.logoPrivilege::before {
+    content: "";
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    background-image: url(../MEDIA/Image/Diamond.png);
+    width: 41px;
+    height: 33px;
+}
+
+.animationPrivilege::before {
+    content: "";
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    background-image: url(../MEDIA/Image/Truck.png);
+    width: 44px;
+    height: 33px;
+}
+
+.provide:after {
+    content: "";
+    position: absolute;
+    bottom: 0px;
+    left: 15px;
+    right: 15px;
+    border-bottom: 2px solid #ececec;
+}
+
+.feature {
+    padding-top: 100px;
+}
+
+.featureHead {
+    text-align: center;
+}
+
+.featureText {
+    position: relative;
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    width: 505px;
+}
+
+.featureText:after {
+    content: "";
+    position: absolute;
+    bottom: 0px;
+    left: 175px;
+    right: 175px;
+    border-bottom: 2px solid #ff2d2d;
+}
+
+.featureMenu {
+    margin-left: 364px;
+    margin-right: 318px;
+    padding-top: 50px;
+    font-size: 22px;
+    letter-spacing: 0.035em;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.featureMenuList {
+    display: flex;
+    justify-content: space-between;
+}
+
+.featureMenuListItem {
+    flex-grow: 1;
+}
+
+.featureMenuListItem a {
+    display: block;
+    margin-top: 43px;
+    margin-bottom: 34px;
+    text-align: center;
+    color: #4c4c4c;
+}
+
+.allMenu a {
+    color: #ff2d2d;
+}
+
+.featureMenuListItem a:hover {
+    color: #ff2d2d;
+}
+
+.featureImages {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-left: 165px;
+    padding-right: 165px;
+}
+
+.featureImages div {
+    display: block;
+    width: 295px;
+    height: 290px;
+    margin-top: 20px;
+    background-color: #f5f0dd;
+}
+
+.team {
+    padding-top: 120px;
+    padding-left: 150px;
+    padding-right: 170px;
+}
+
+.teamHeadText {
+    position: relative;
+    padding-top: 20px;
+    padding-left: 15px;
+    padding-bottom: 30px;
+    width: 450px;
+}
+
+.teamHeadText:after {
+    content: "";
+    position: absolute;
+    bottom: 0px;
+    left: 15px;
+    right: 305px;
+    border-bottom: 2px solid #ff2d2d;
+}
+
+.teamIntr {
+    position: relative;
+    padding-top: 60px;
+    padding-left: 15px;
+    padding-bottom: 110px;
+}
+
+.teamIntrFocus {
+    display: flex;
+    justify-content: space-between;
+}
+
+.teamIntrFocusImage {
+    min-width: 320px;
+    height: 457px;
+    background-color: #f5f0dd;
+}
+
+.teamIntrFocusCard {
+    padding-top: 5px;
+    padding-left: 73px;
+}
+
+.teamIntrFocusCardText {
+    padding-top: 20px;
+}
+
+.teamIntrFocusCardSocialList {
+    display: flex;
+    padding-top: 45px;
+}
+
+.teamIntrFocusCardSocialListItem {
+    padding-right: 30px;
+    font-size: 18px;
+    font-style: italic;
+}
+
+.teamIntrFocusCardSocialListItem a {
+    color: #333333;
+}
+
+.teamIntrOthers {
+    position: absolute;
+    top: 303px;
+    left: 405px;
+}
+
+.teamIntrOthersList {
+    display: flex;
+    justify-content: space-between;
+}
+
+.teamIntrOthersListPerson {
+    width: 195px;
+    height: 213px;
+    margin-right: 20px;
+}
+
+.teamIntrOthersListPerson a {
+    position: relative;
+    display: block;
+    height: 213px;
+    background-color: #f5f0dd;
+    text-align: center;
+}
+
+.teamIntrOthersListPerson a div {
+    position: absolute;
+    display: block;
+    top: 180px;
+    width: 100%;
+    padding-top: 8px;
+    height: 0px;
+    color: #f5f0dd;
+    font-size: 16px;
+    text-transform: uppercase;
+    background-color: #f5f0dd;
+    transition: all 0.1s ease;
+}
+
+.Person1 a div {
+    height: 25px;
+    background-color: #7a786e;
+}
+
+.teamIntrOthersListPerson a:hover div {
+    height: 25px;
+    background-color: #7a786e;
+}
+
+.subscribe {
+    background-color: #f5f0dd;
+    height: 510px;
+}
+
+.subscribeHead {
+    padding-top: 140px;
+    text-align: center;
+}
+
+.subscribeText {
+    padding-top: 40px;
+    text-align: center;
+}
+
+.subscribeField {
+    position: relative;
+    padding-top: 65px;
+    text-align: center;
+}
+
+.subscribeFieldInput {
+    box-sizing: border-box;
+    height: 80px;
+    width: 520px;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    padding-left: 25px;
+    font-size: 18px;
+    color: #757575;
+}
+
+.subscribeFieldLabel {
+    position: absolute;
+    font-size: 18px;
+    color: #757575;
+    top: 95px;
+    left: 432px;
+    transition: 0.2s ease all;
+    pointer-events: none;
+}
+
+.subscribeFieldInput:focus~.subscribeFieldLabel,
+.subscribeFieldInput:valid~.subscribeFieldLabel {
+    font-size: 14px;
+    transform: translateY(-20px);
+}
+
+.subscribeFieldButton {
+    margin-left: 20px;
+    height: 80px;
+    width: 215px;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+}
+
+.form {
+    padding-top: 100px;
+    padding-left: 150px;
+    padding-bottom: 110px;
+}
+
+.formHead {
+    position: relative;
+}
+
+.formHeadText {
+    padding-top: 50px;
+    padding-bottom: 55px;
+    width: 730px;
+}
+
+.formHead:after {
+    content: "";
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    right: 1255px;
+    border-bottom: 2px solid #ff2d2d;
+}
+
+.formBody {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 75px;
+}
+
+.formBodyForm {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    position: relative;
+    padding-right: 100px;
+}
+
+.formBodyFormInputName {
+    box-sizing: border-box;
+    width: 340px;
+    height: 69px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    background-color: #e5e5e5;
+    padding-left: 55px;
+    font-size: 18px;
+    color: #757575;
+}
+
+.formBodyFormInputNameLabel {
+    position: absolute;
+    font-size: 18px;
+    color: #757575;
+    top: 25px;
+    left: 55px;
+    transition: 0.2s ease all;
+    pointer-events: none;
+}
+
+.formBodyFormInputName:focus~.formBodyFormInputNameLabel,
+.formBodyFormInputName:valid~.formBodyFormInputNameLabel {
+    font-size: 14px;
+    transform: translate(-10px, -20px);
+}
+
+.formBodyFormInputEmail {
+    box-sizing: border-box;
+    width: 325px;
+    height: 69px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    background-color: #e5e5e5;
+    padding-left: 55px;
+    font-size: 18px;
+    color: #757575;
+}
+
+.formBodyFormInputEmailLabel {
+    position: absolute;
+    font-size: 18px;
+    color: #757575;
+    top: 25px;
+    left: 475px;
+    transition: 0.2s ease all;
+    pointer-events: none;
+}
+
+.formBodyFormInputEmail:focus~.formBodyFormInputEmailLabel,
+.formBodyFormInputEmail:valid~.formBodyFormInputEmailLabel {
+    font-size: 14px;
+    transform: translate(-10px, -20px);
+}
+
+.formBodyFormText {
+    box-sizing: border-box;
+    width: 753px;
+    height: 247px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    resize: none;
+    background-color: #e5e5e5;
+    margin-top: 45px;
+    padding-top: 33px;
+    padding-left: 55px;
+    font-size: 18px;
+    color: #757575;
+}
+
+.formBodyFormTextLabel {
+    position: absolute;
+    font-size: 18px;
+    color: #757575;
+    top: 155px;
+    left: 55px;
+    transition: 0.2s ease all;
+    pointer-events: none;
+}
+
+.formBodyFormText:focus~.formBodyFormTextLabel,
+.formBodyFormText:valid~.formBodyFormTextLabel {
+    font-size: 14px;
+    transform: translate(-10px, -25px);
+}
+
+.formBodyFormButton {
+    width: 753px;
+    height: 75px;
+    margin-top: 45px;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 1.878;
+    letter-spacing: 0.025em;
+    text-transform: uppercase;
+}
+
+.formBodyContact {
+    box-sizing: border-box;
+    min-width: 574px;
+    background-color: #2d2d2d;
+    padding-left: 80px;
+    padding-top: 140px;
+}
+
+.formBodyContactAddress {
+    padding-top: 42px;
+    width: 282px;
+}
+
+.formBodyContactEmail {
+    padding-top: 28px;
+}
+
+.formBodyContactPhone {
+    padding-top: 28px;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1577px;
+    height: 110px;
+    margin: 0 auto;
+    background-color: #313030;
+}
+
+.copyright {
+    padding-left: 150px;
+}
+
+.social {
+    padding-right: 165px;
+}
+
+.socialList {
+    display: flex;
+    justify-content: space-between;
+}
+
+.socialList li {
+    margin-right: 15px;
+}
+
+.socialList a {
+    display: block;
+    width: 33px;
+    height: 33px;
+}
+
+.socialListTwitter {
+    background-image: url(../MEDIA/Image/Twitter.png);
+}
+
+.socialListIn {
+    background-image: url(../MEDIA/Image/LinkedIn.png);
+}
+
+.socialListGoogle {
+    background-image: url(../MEDIA/Image/Google.png);
+}
+
+.socialListFacebook {
+    background-image: url(../MEDIA/Image/Facebook.png);
+}
